@@ -31,8 +31,8 @@
   <anchor id="gimp-colorselector-notebook"/>
   <para>
     The Color dialog lets you manage and pick up new colors. You can use it
-    into five different modes: GIMP, CMYK, Triangle, Watercolor and Scales. It
-    has an interesting eyedropper to pick up a color anywhere on your screen.
+    in six different modes: GIMP, CMYK, Watercolor, Wheel, Palette and Scales.
+    It also has an eyedropper to pick up a color anywhere on your screen.
   </para>
   <para>
     The dialog called from the FG/BG area in the toolbox is a bit different
@@ -40,8 +40,8 @@
     <itemizedlist>
       <listitem>
         <para>
-          the sliders are permanently visible instead of selected from the
-          scale menu,
+          the sliders are permanently visible instead of being selected from
+          the scale menu,
         </para>
       </listitem>
       <listitem>
@@ -54,7 +54,7 @@
     </itemizedlist>
   </para>
   <para>
-    This dialog works either on the foreground or the background color.
+    This dialog works on either the foreground or the background color.
   </para>
 
   <sect3>
@@ -70,7 +70,7 @@
     <itemizedlist>
       <listitem>
         <para>
-          from an image menu:
+          from the image menu:
           <menuchoice>
             <guimenu>Windows</guimenu>
             <guisubmenu>Dockable Dialogs</guisubmenu>
@@ -102,7 +102,7 @@
       In the <guimenu>Windows</guimenu> menu, there is a list of
       <link linkend="gimp-dockable-menu">detached windows</link> which exists
       only if at least one dialog remains open. In this case, you can raise
-      the <quote>Colors</quote> dialog from the image-menu:
+      the <quote>Colors</quote> dialog from the image menu:
       <menuchoice>
         <guimenu>Windows</guimenu>
         <guimenuitem>Colors</guimenuitem>
@@ -142,31 +142,9 @@
             You get to this selector by clicking on the printer icon. The CMYK
             view gives you the possibility to manage colors from the
             <link linkend="glossary-colormodel">CMYK</link>
-            color model.
-          </para>
-        </listitem>
-      </varlistentry>
-      <varlistentry id="gimp-colorselector-triangle">
-        <term>Triangle</term>
-        <listitem>
-          <indexterm>
-            <primary>Triangle Color Selector</primary>
-          </indexterm>
-          <figure>
-            <title>The triangle selector</title>
-            <mediaobject>
-              <imageobject>
-                <imagedata format="PNG"
-                           fileref="images/dialogs/color-triangle.png"/>
-              </imageobject>
-            </mediaobject>
-          </figure>
-          <para>
-            This selector uses the <xref linkend="glossary-hsv"/> color
-            model. Click in the <emphasis>chromatic circle</emphasis> and drag
-            the mouse pointer to select the Hue. Click-and-drag in the
-            <emphasis>triangle</emphasis> to vary intuitively Saturation
-            (vertically) and Value (horizontally).
+            color model. If a CMYK profile is attached to the image, the profile
+            will be used to determine the CMYK colors. Otherwise, a "naive" color
+            conversion will be performed.
           </para>
         </listitem>
       </varlistentry>
@@ -199,6 +177,30 @@
           </para>
         </listitem>
       </varlistentry>
+      <varlistentry id="gimp-colorselector-triangle">
+        <term>Wheel</term>
+        <listitem>
+          <indexterm>
+            <primary>Wheel Color Selector</primary>
+          </indexterm>
+          <figure>
+            <title>The wheel selector</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/dialogs/color-triangle.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>
+            This selector uses the <xref linkend="glossary-hsv"/> color
+            model. Click in the <emphasis>chromatic circle</emphasis> and drag
+            the mouse pointer to select the Hue. Click-and-drag in the
+            <emphasis>triangle</emphasis> to vary the Saturation
+            (vertically) and Value (horizontally).
+          </para>
+        </listitem>
+      </varlistentry>
       <varlistentry id="gimp-colorselector-palette">
         <term>Palette</term>
         <listitem>
@@ -215,8 +217,8 @@
             </mediaobject>
           </figure>
           <para>
-            This color selector brings up a list of the colors of the current
-            palette in the
+            This color selector brings up a list of the colors from the
+            current palette in the
             <link linkend="gimp-palette-dialog">Palettes dialog</link>.
             You can set <acronym>GIMP</acronym>'s foreground or background
             colors by clicking on colors in the colors display. You can also
@@ -237,8 +239,9 @@
             </mediaobject>
           </figure>
           <para>
-            This selector displays a global view of R, G, B channels and H, S,
-            V values, placed in sliders.
+            This selector displays a global view of R, G, B channels and either
+            H, S, V or L, c, h values, placed in sliders.
+            The numbers can be represented as 0 to 255 or 0.0 to 100.0 ranges.
           </para>
         </listitem>
       </varlistentry>
@@ -246,7 +249,8 @@
         <term>Color picker</term>
         <listitem>
           <para>
-            The color picker has a completely different behavior, than the
+            The Color Dialog color picker has a completely different behavior
+            than the
             <link linkend="gimp-tool-color-picker">color picker tool</link>.
             Instead of picking the colors from the active image, you're able
             to pick colors from the entire screen.
