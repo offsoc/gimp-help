@@ -50,8 +50,6 @@
       <para>
         If you expand this option, you can select the file format and related
         file extension for your file in the list.
-      </para>
-      <para>
         The supported file formats depend on your installed system libraries.
       </para>
     </formalpara>
