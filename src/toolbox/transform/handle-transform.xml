@@ -137,7 +137,7 @@
           <guiicon>
             <inlinemediaobject>
               <imageobject>
-                <imagedata fileref="images/stock-icons/gimp-tool-handle-transform.png" />
+                <imagedata fileref="images/stock-icons/gimp-tool-handle-transform.svg" contentwidth="16px" />
               </imageobject>
             </inlinemediaobject>
           </guiicon>
@@ -147,7 +147,7 @@
 
       <listitem>
         <para>
-          By pressing the <keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>H</keycap>
+          By pressing the <keycap>Shift</keycap><keycap>L</keycap>
           keyboard shortcut.
         </para>
       </listitem>
@@ -192,16 +192,15 @@
 
     <para>
       The available tool options can be accessed by double clicking the
-      Handle Transform tool icon.
+      tool icon in the toolbox:
       <guiicon>
         <inlinemediaobject>
           <imageobject>
-            <imagedata format="PNG"
-              fileref="images/stock-icons/gimp-tool-handle-transform.png" />
+            <imagedata
+              fileref="images/stock-icons/gimp-tool-handle-transform.svg" contentwidth="16px" />
           </imageobject>
         </inlinemediaobject>
       </guiicon>
-      in toolbox.
     </para>
 
     <variablelist>

@@ -193,7 +193,7 @@
             <inlinemediaobject>
               <imageobject>
                 <imagedata 
-                fileref="images/stock-icons/gimp-tool-unified-transform.png"/>
+                fileref="images/stock-icons/gimp-tool-unified-transform.svg" contentwidth="16px"/>
               </imageobject>
             </inlinemediaobject>
           </guiicon>
@@ -203,7 +203,7 @@
 
       <listitem>
         <para>
-          By pressing the <keycombo><keycap>Shift</keycap><keycap>L</keycap></keycombo> 
+          By pressing the <keycombo><keycap>Shift</keycap><keycap>T</keycap></keycombo> 
           keyboard shortcut.
         </para>
       </listitem>
@@ -225,15 +225,15 @@
 
     <para>
       The available tool options can be accessed by double clicking the
-      Unified Transform tool icon.
+      tool icon in the toolbox:
       <guiicon>
-            <inlinemediaobject>
-              <imageobject>
-                <imagedata 
-                fileref="images/stock-icons/gimp-tool-unified-transform.png"/>
-              </imageobject>
-            </inlinemediaobject>
-          </guiicon>
+        <inlinemediaobject>
+          <imageobject>
+            <imagedata
+              fileref="images/stock-icons/gimp-tool-unified-transform.svg" contentwidth="16px"/>
+          </imageobject>
+        </inlinemediaobject>
+      </guiicon>
     </para>
 
     <variablelist>

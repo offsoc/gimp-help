@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Manual\n"
-"POT-Creation-Date: 2024-03-04 12:32+0100\n"
-"PO-Revision-Date: 2022-07-05 18:39+0200\n"
+"POT-Creation-Date: 2024-04-30 01:06+0200\n"
+"PO-Revision-Date: 2024-03-21 11:16+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@posteo.net>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -94,13 +94,11 @@ msgstr ""
 
 #: src/menus/view/zoom.xml:54(title)
 #: src/menus/view/view-color-management.xml:31(title)
-#: src/menus/view/padding-color.xml:47(title)
-#, fuzzy
+#: src/menus/view/padding-color.xml:39(title)
 msgid "Activating the Submenu"
 msgstr "Attivazione del sottomenu"
 
-#: src/menus/view/zoom.xml:57(para)
-#, fuzzy
+#: src/menus/view/zoom.xml:55(para)
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guisubmenu>Zoom</guisubmenu></"
@@ -108,17 +106,17 @@ msgid ""
 "quote> menu shows the current zoom factor, for example, <guilabel>Zoom "
 "(100%)</guilabel>."
 msgstr ""
-"È possibile accedere a questo sottomenu dalla barra del menu immagine "
+"È possibile accedere a questo sottomenu dalla barra del menu principale "
 "tramite <menuchoice><guimenu>Visualizza</guimenu><guisubmenu>Zoom</"
-"guisubmenu></menuchoice>. notare che l'etichetta <quote>Zoom</quote> nel "
+"guisubmenu></menuchoice>. Si noti che l'etichetta <quote>Zoom</quote> nel "
 "menu <quote>Visualizza</quote> mostra il fattore di ingrandimento corrente, "
 "per esempio, <guilabel>Zoom (100%)</guilabel>."
 
-#: src/menus/view/zoom.xml:72(title)
+#: src/menus/view/zoom.xml:68(title)
 msgid "Contents of the <quote>Zoom</quote> submenu"
 msgstr "Contenuti del sottomenu <quote>zoom</quote>"
 
-#: src/menus/view/zoom.xml:73(para)
+#: src/menus/view/zoom.xml:69(para)
 msgid ""
 "The various <quote>Zoom</quote> submenu commands are described below, along "
 "with their default keyboard shortcuts, if any."
@@ -126,12 +124,11 @@ msgstr ""
 "I vari comandi del sottomenu <quote>Zoom</quote> sono descritti di seguito, "
 "con le loro scorciatoie da tastiera correnti, se ce ne sono."
 
-#: src/menus/view/zoom.xml:79(term)
+#: src/menus/view/zoom.xml:75(term)
 msgid "Revert Zoom"
 msgstr "Ripristina zoom"
 
-#: src/menus/view/zoom.xml:82(para)
-#, fuzzy
+#: src/menus/view/zoom.xml:78(para)
 msgid ""
 "(Shortcut: <keycap>`</keycap> [grave accent,<quote>backtick</quote>]) This "
 "command will reset the zoom factor to the previous value, which is also "
@@ -142,15 +139,14 @@ msgstr ""
 "(scorciatoia: <keycap>`</keycap> [accento grave, detto anche "
 "<quote>backtick</quote>])  Questo comando reimposta il fattore di zoom al "
 "valore precedente, che è mostrato anche da questa etichetta, per esempio "
-"<guilabel>Ripristina zoom (100%)</guilabel>. Se non si è mai il fattore di "
-"zoom della immagine attiva, questa voce è inattiva e mostrata in colore "
-"grigio pallido."
+"<guilabel>Ripristina zoom (100%)</guilabel>. Se non si è mai cambiato il "
+"fattore di zoom della immagine attiva, questa voce è inattiva."
 
-#: src/menus/view/zoom.xml:93(term)
+#: src/menus/view/zoom.xml:89(term)
 msgid "Zoom Out"
 msgstr "Zoom indietro"
 
-#: src/menus/view/zoom.xml:96(para)
+#: src/menus/view/zoom.xml:92(para)
 msgid ""
 "(Shortcut: <keycap>-</keycap>) Each time <quote>Zoom Out</quote> is used, "
 "the zoom factor is decreased by about 30%. There is a minimum zoom level of "
@@ -160,11 +156,11 @@ msgstr ""
 "indietro</quote>, il fattore di ingrandimento viene decrementato di circa il "
 "30%. Il livello di zoom minimo è di 0.39%."
 
-#: src/menus/view/zoom.xml:104(term)
+#: src/menus/view/zoom.xml:100(term)
 msgid "Zoom In"
 msgstr "Zoom avanti"
 
-#: src/menus/view/zoom.xml:107(para)
+#: src/menus/view/zoom.xml:103(para)
 msgid ""
 "(Shortcut: <keycap>+</keycap>) Each time <quote>Zoom In</quote> is used, the "
 "zoom factor is increased by about 30%. The maximum possible zoom level is "
@@ -174,7 +170,7 @@ msgstr ""
 "avanti</quote>, il fattore di zoom viene incrementato di circa il 30%. Il "
 "livello di zoom massimo è di 25600%."
 
-#: src/menus/view/zoom.xml:114(para)
+#: src/menus/view/zoom.xml:110(para)
 msgid ""
 "The keyboard shortcut for <quote>Zoom In</quote> has been somewhat "
 "controversial because this is a very common operation and on English "
@@ -193,12 +189,12 @@ msgstr ""
 "linkend=\"gimp-prefs-interface\">preferenze dell'interfaccia utente</link> "
 "per la procedura di configurazione."
 
-#: src/menus/view/zoom.xml:128(term)
-#: src/menus/view/zoom.xml:130(anchor:xreflabel)
+#: src/menus/view/zoom.xml:124(term)
+#: src/menus/view/zoom.xml:126(anchor:xreflabel)
 msgid "Fit Image in Window"
 msgstr "Adatta immagine alla finestra"
 
-#: src/menus/view/zoom.xml:131(para)
+#: src/menus/view/zoom.xml:127(para)
 msgid ""
 "(Shortcut: <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>J</"
 "keycap></keycombo>). This command zooms the image to be as large as "
@@ -211,12 +207,12 @@ msgstr ""
 "limiti della finestra. Normalmente ciò significa inserire un bordo a due dei "
 "quattro lati della finestra."
 
-#: src/menus/view/zoom.xml:146(term)
-#: src/menus/view/zoom.xml:148(anchor:xreflabel)
+#: src/menus/view/zoom.xml:142(term)
+#: src/menus/view/zoom.xml:144(anchor:xreflabel)
 msgid "Fill Window"
 msgstr "Riempi la finestra"
 
-#: src/menus/view/zoom.xml:149(para)
+#: src/menus/view/zoom.xml:145(para)
 msgid ""
 "This command zooms the image as large as possible without requiring any "
 "padding to be shown. This means that the image fits the window perfectly in "
@@ -229,12 +225,12 @@ msgstr ""
 "perfettamente ad una dimensione della finestra, ma probabilmente si estende "
 "nell'altra dimensione oltre il bordo della finestra."
 
-#: src/menus/view/zoom.xml:158(term)
-#: src/menus/view/zoom.xml:160(anchor:xreflabel)
+#: src/menus/view/zoom.xml:154(term)
+#: src/menus/view/zoom.xml:156(anchor:xreflabel)
 msgid "Zoom to Selection"
 msgstr "Zoom a selezione"
 
-#: src/menus/view/zoom.xml:161(para)
+#: src/menus/view/zoom.xml:157(para)
 msgid ""
 "This command zooms the image so that the selection fits the smallest "
 "dimension of the image window."
@@ -242,11 +238,11 @@ msgstr ""
 "Questo comando esegue uno zoom dell'immagine in modo che la selezione "
 "riempia il più possibile lo schermo."
 
-#: src/menus/view/zoom.xml:168(term)
+#: src/menus/view/zoom.xml:164(term)
 msgid "A:B (X%)"
 msgstr "A:B (X%)"
 
-#: src/menus/view/zoom.xml:171(para)
+#: src/menus/view/zoom.xml:167(para)
 msgid ""
 "With these commands, you can select one of the pre-set zoom levels. Each of "
 "the menu labels gives a ratio, as well as a percentage value. Please note "
@@ -259,11 +255,11 @@ msgstr ""
 "da tastiera. Il valore di zoom corrente viene indicato con un grosso punto "
 "in corrispondenza dell'impostazione."
 
-#: src/menus/view/zoom.xml:180(term)
+#: src/menus/view/zoom.xml:176(term)
 msgid "Other"
 msgstr "Altri"
 
-#: src/menus/view/zoom.xml:183(para)
+#: src/menus/view/zoom.xml:179(para)
 msgid ""
 "This command brings up a dialog which allows you to choose any zoom level "
 "you would like, within the range of 1:256 (0.39%) to 256:1 (25600%)."
@@ -272,7 +268,7 @@ msgstr ""
 "permette di inserire un rapporto a piacimento tra i valori di 1:256 (0.39%) "
 "e 256:1 (25600%)."
 
-#: src/menus/view/zoom.xml:192(para)
+#: src/menus/view/zoom.xml:188(para)
 msgid ""
 "When you are working at the pixel level, you can use the <link "
 "linkend=\"gimp-view-new\">New view</link> command. This allows you to see "
@@ -293,32 +289,34 @@ msgid ""
 "For color profile related actions of an image file, see <xref linkend=\"gimp-"
 "image-color-management\"/>."
 msgstr ""
+"Per le azioni relative al profilo colore di un file immagine, vedere <xref "
+"linkend=\"gimp-image-color-management\"/>."
 
 #: src/menus/view/view-color-management.xml:15(para)
 msgid ""
 "For <acronym>GIMP</acronym>'s general Color Management preferences, see "
 "<xref linkend=\"gimp-prefs-color-management\"/>."
 msgstr ""
+"Per le preferenze generali di gestione del colore di <acronym>GIMP</"
+"acronym>, vedere <xref linkend=\"gimp-prefs-color-management\"/>."
 
 #: src/menus/view/view-color-management.xml:25(para)
-#, fuzzy
 msgid ""
 "This menu item opens a submenu allowing you to manage color display "
 "management on your system."
 msgstr ""
-"Questa voce di menu apre un sottomenu che permette di gestire il soft-"
-"proofing:"
+"Questa voce di menu apre un sottomenu che consente di gestire la gestione "
+"della visualizzazione dei colori sul sistema."
 
 #: src/menus/view/view-color-management.xml:32(para)
-#, fuzzy
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Color Management</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"È possibile accedere a questo comando dalla barra del menu immagine tramite "
-"<menuchoice><guimenu>Visualizza</guimenu><guimenuitem>Gestione colore</"
-"guimenuitem></menuchoice>,"
+"È possibile accedere a questo comando dalla barra del menu principale "
+"tramite <menuchoice><guimenu>Visualizza</guimenu><guimenuitem>Gestione del "
+"colore</guimenuitem></menuchoice>."
 
 #: src/menus/view/snap-to-path.xml:10(title)
 msgid "Snap to Active Path"
@@ -1246,15 +1244,6 @@ msgstr ""
 "Usando la scorciatoia da tastiera <keycombo><keycap>Maiusc</"
 "keycap><keycap>J</keycap></keycombo>."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/view/padding-color.xml:32(None)
-#, fuzzy
-msgid ""
-"@@image: 'images/menus/view/padding-color.png'; "
-"md5=b6ea26486f973d7b88dc39b09f136f25"
-msgstr " "
-
 #: src/menus/view/padding-color.xml:10(title)
 msgid "Padding Color"
 msgstr "Colore di riempimento"
@@ -1280,11 +1269,7 @@ msgstr "Colore di riempimento"
 msgid "Color"
 msgstr "Colore"
 
-#: src/menus/view/padding-color.xml:29(title)
-msgid "Contents of the <quote>Padding Color</quote> submenu"
-msgstr "Contenuti del sottomenu <quote>colore di riempimento</quote>"
-
-#: src/menus/view/padding-color.xml:36(para)
+#: src/menus/view/padding-color.xml:28(para)
 msgid ""
 "You can change the color of the canvas which surrounds the image by using "
 "the <guimenuitem>Padding Color</guimenuitem> command. The canvas is the "
@@ -1301,7 +1286,7 @@ msgstr ""
 "questo colore non ha nulla a che fare con il colore usato dallo strumento di "
 "riempimento."
 
-#: src/menus/view/padding-color.xml:50(para)
+#: src/menus/view/padding-color.xml:40(para)
 #, fuzzy
 msgid ""
 "You can access this submenu from the main menu through "
@@ -1312,15 +1297,15 @@ msgstr ""
 "tramite <menuchoice><guimenu>Visualizza</guimenu><guimenuitem>Colore di "
 "riempimento</guimenuitem></menuchoice>."
 
-#: src/menus/view/padding-color.xml:61(title)
+#: src/menus/view/padding-color.xml:49(title)
 msgid "<quote>Padding Color</quote> Options"
 msgstr "Opzioni del <quote>colore di riempimento</quote>"
 
-#: src/menus/view/padding-color.xml:64(term)
+#: src/menus/view/padding-color.xml:52(term)
 msgid "From Theme"
 msgstr "Dal tema"
 
-#: src/menus/view/padding-color.xml:66(para)
+#: src/menus/view/padding-color.xml:54(para)
 msgid ""
 "The color of the theme defined in <link linkend=\"gimp-prefs-"
 "theme\">Preferences Theme</link> is used."
@@ -1328,11 +1313,11 @@ msgstr ""
 "Il colore del tema definito dal <link linkend=\"gimp-prefs-theme\">tema</"
 "link> impostato nelle preferenze."
 
-#: src/menus/view/padding-color.xml:73(term)
+#: src/menus/view/padding-color.xml:61(term)
 msgid "Light/Dark Check Color"
 msgstr "Colore scacchi chiari/scuri"
 
-#: src/menus/view/padding-color.xml:75(para)
+#: src/menus/view/padding-color.xml:63(para)
 msgid ""
 "The check representing transparency, which is defined in <link "
 "linkend=\"gimp-prefs-display\">Preferences Display</link> is used."
@@ -1340,23 +1325,23 @@ msgstr ""
 "Gli scacchi che rappresentano la trasparenza, definiti nelle <link "
 "linkend=\"gimp-prefs-display\">preferenze di visualizzazione</link>."
 
-#: src/menus/view/padding-color.xml:83(term)
+#: src/menus/view/padding-color.xml:71(term)
 #, fuzzy
 msgid "Custom Color…"
 msgstr "Seleziona colore personalizzato..."
 
-#: src/menus/view/padding-color.xml:85(para)
+#: src/menus/view/padding-color.xml:73(para)
 msgid "Opens the Color Selector window to let you choose a color to use."
 msgstr ""
 "Apre la finestra di selezione del colore per permettere una scelta "
 "personalizzata."
 
-#: src/menus/view/padding-color.xml:91(term)
+#: src/menus/view/padding-color.xml:79(term)
 #, fuzzy
 msgid "Keep Padding in <quote>Show All</quote> Mode"
 msgstr "Uso del comando <quote>Mostra tutto</quote>"
 
-#: src/menus/view/padding-color.xml:93(para)
+#: src/menus/view/padding-color.xml:81(para)
 msgid ""
 "In the <link linkend=\"gimp-view-show-all\"><quote>Show All</quote></link> "
 "mode you can see pixels outside the canvas. When this option is not checked, "
@@ -1364,12 +1349,18 @@ msgid ""
 "you have selected a custom padding color. When the option is checked, the "
 "canvas has the custom padding color."
 msgstr ""
+"Nella modalità <link linkend=\"gimp-view-show-all\"><quote>Mostra tutto</"
+"quote></link> si può vedere i pixel all'esterno dell'area di disegno. Quando "
+"questa opzione non è selezionata, l'area esterna viene riempita con un "
+"motivo a scacchiera, anche se si è selezionato un colore di riempimento "
+"personalizzato. Quando l'opzione è selezionata, l'area di disegno ha il "
+"colore di riempimento personalizzato."
 
-#: src/menus/view/padding-color.xml:104(term)
+#: src/menus/view/padding-color.xml:92(term)
 msgid "As in Preferences"
 msgstr "Come nelle preferenze"
 
-#: src/menus/view/padding-color.xml:106(para)
+#: src/menus/view/padding-color.xml:94(para)
 msgid ""
 "The color selected in the <link linkend=\"gimp-prefs-image-window-"
 "appearance\">Image Window Appearance</link> is used."
@@ -1422,8 +1413,8 @@ msgstr ""
 #: src/menus/view/navigwindow.xml:44(None)
 #, fuzzy
 msgid ""
-"@@image: 'images/stock-icons/gimp-navigation.png'; "
-"md5=95eba456cec152f09847e19774e79d4f"
+"@@image: 'images/stock-icons/gimp-navigation.svg'; "
+"md5=fbefb2954072993307dd38b6fd54016d"
 msgstr " "
 
 #: src/menus/view/navigwindow.xml:10(title)
@@ -2456,31 +2447,4 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Marco Ciampa <ciampix@posteo.net> 2005, 2006, 2007, 2008, 2009, 2010, 2011, "
-"2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/view/view-color-management.png'; "
-#~ "md5=83f1588fb7739398033942ffd6132e43"
-#~ msgstr " "
-
-#, fuzzy
-#~ msgid ""
-#~ "The <menuchoice><guimenu>View</guimenu><guimenuitem>Color Management</"
-#~ "guimenuitem></menuchoice> submenu"
-#~ msgstr ""
-#~ "Dal menu tramite <menuchoice><guimenu>Visualizza</"
-#~ "guimenu><guimenuitem>Centra immagine nella finestra</guimenuitem></"
-#~ "menuchoice>."
-
-#~ msgid ""
-#~ "There is also a Color Management menu item in the Image menu, related to "
-#~ "color profile."
-#~ msgstr ""
-#~ "C'è anche una voce di menu di gestione del colore nel menu immagine, "
-#~ "relativa la profilo colore."
-
-#~ msgid "The <quote>View/Color Management</quote> submenu"
-#~ msgstr "Il sottomenu <quote>Vista/Gestione del colore</quote>"
-
-#~ msgid "Activate the Submenu"
-#~ msgstr "Attivazione del sottomenu"
+"2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024."

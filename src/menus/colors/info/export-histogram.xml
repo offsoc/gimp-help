@@ -65,7 +65,7 @@ Range start,   Value,   Red,   Green,   Blue
       <menuchoice>
         <guimenu>Colors</guimenu>
         <guisubmenu>Info</guisubmenu>
-        <guimenuitem>Export Histogram</guimenuitem>
+        <guimenuitem>Export histogram…</guimenuitem>
       </menuchoice>.
     </para>
   </sect3>
@@ -73,7 +73,7 @@ Range start,   Value,   Red,   Green,   Blue
     <sect3>
     <title>Options</title>
     <figure>
-      <title><quote>Smooth Palette</quote> options</title>
+      <title><quote>Export Histogram</quote> options</title>
       <mediaobject>
         <imageobject>
           <imagedata format="PNG"
@@ -113,7 +113,7 @@ Range start,   Value,   Red,   Green,   Blue
         </listitem>
       </varlistentry>
       <varlistentry>
-        <term>Output Format</term>
+        <term>Output format</term>
         <listitem>
           <para>
             If the <guilabel>Pixel count</guilabel> option is chosen, the values in the generated

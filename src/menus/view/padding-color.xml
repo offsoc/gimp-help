@@ -25,14 +25,6 @@
     <secondary>Padding color of canvas</secondary>
   </indexterm>
 
-  <figure>
-    <title>Contents of the <quote>Padding Color</quote> submenu</title>
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="images/menus/view/padding-color.png" format="PNG"/>
-      </imageobject>
-    </mediaobject>
-  </figure>
   <para>
     You can change the color of the canvas which surrounds the image by
     using the <guimenuitem>Padding Color</guimenuitem> command.  The canvas
@@ -45,16 +37,12 @@
 
   <sect3>
     <title>Activating the Submenu</title>
-    <itemizedlist>
-      <listitem>
-        <para>
-          You can access this submenu from the main menu through
-          <menuchoice>
-            <guimenu>View</guimenu>
-            <guimenuitem>Padding Color</guimenuitem></menuchoice>.
-        </para>
-      </listitem>
-    </itemizedlist>
+    <para>
+      You can access this submenu from the main menu through
+      <menuchoice>
+        <guimenu>View</guimenu>
+        <guimenuitem>Padding Color</guimenuitem></menuchoice>.
+    </para>
   </sect3>
 
   <sect3>

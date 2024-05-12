@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.8.0\n"
-"POT-Creation-Date: 2024-03-10 19:26+0000\n"
-"PO-Revision-Date: 2024-03-05 18:10+0100\n"
+"POT-Creation-Date: 2024-03-26 18:29+0000\n"
+"PO-Revision-Date: 2024-03-26 20:56+0100\n"
 "Last-Translator: maite guix <maite.guix@me.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "Language: ca\n"
@@ -263,7 +263,7 @@ msgid ""
 "harmful."
 msgstr ""
 "Els filtres i altres accions efectuades per connectors o scripts, es poden "
-"desfer igual que les accions implementades pel  nucli del <acronym>GIMP</"
+"desfer igual que les accions implementades pel nucli del <acronym>GIMP</"
 "acronym>, però requereixen que feu un ús correcte de les funcions de desfer "
 "del <acronym>GIMP</acronym>. Si el codi no és correcte, un connector pot "
 "corrompre l'historial de desfer, no només en el connector sinó en les "
@@ -430,10 +430,10 @@ msgid ""
 "operations. Clicking on either one of them brings up a color selector dialog "
 "that allows you to change to a different color."
 msgstr ""
-"L'àrea de color mostra els colors actuals del primer pla i del fons del <"
-"acronym>GIMP</acronym>, que s'utilitzen per a pintar, omplir i moltes altres "
-"operacions. En fer clic sobre qualsevol d'ells, s'obre un diàleg de selecció "
-"de color que permet canviar a un color diferent."
+"L'àrea de color mostra els colors actuals del primer pla i del fons del "
+"<acronym>GIMP</acronym>, que s'utilitzen per a pintar, omplir i moltes "
+"altres operacions. En fer clic sobre qualsevol d'ells, s'obre un diàleg de "
+"selecció de color que permet canviar a un color diferent."
 
 #: src/concepts/toolbox.xml:75(para)
 msgid ""
@@ -503,7 +503,7 @@ msgid ""
 msgstr ""
 "<indexterm><primary>XDS</primary></indexterm> Si utilitzeu el <acronym>GIMP</"
 "acronym> en un sistema operatiu similar a un Unix amb el sistema X Window, "
-"també podeu arrossegar i amollar la miniatura a un <link "
+"també podeu arrossegar i deixar anar la miniatura a un <link "
 "linkend=\"bibliography-online-xds\">gestor de fitxers XDS</link> habilitat "
 "per a desar directament la imatge corresponent."
 
@@ -2624,10 +2624,10 @@ msgid ""
 "registers itself."
 msgstr ""
 "Una vegada instal·lat el connector, com l'activeu? El camí del menú està "
-"determinat pel propi connector, així que per contestar necessiteu revisar la "
-"documentació (si és que en té), exploreu els menús o utilitzeu la funció de "
-"la cerca d'ordres del <acronym>GIMP</acronym> prement <keycap>/</keycap> i "
-"després introduïu el nom del connector. Si sabeu llegir el codi font també "
+"determinat pel mateix connector, així que per contestar necessiteu revisar "
+"la documentació (si és que en té), exploreu els menús o utilitzeu la funció "
+"de la cerca d'ordres del <acronym>GIMP</acronym> prement <keycap>/</keycap> "
+"i després introduïu el nom del connector. Si sabeu llegir el codi font també "
 "podreu veure en quin menú es registra."
 
 #: src/concepts/plugins.xml:233(para)
@@ -3029,7 +3029,7 @@ msgid ""
 "They allow you to paint with a selected set of colors, in the same way an "
 "oil painter works with colors from a limited number of tubes."
 msgstr ""
-"Per pintar amb un conjunt de colors seleccionats, de la mateixa manera que "
+"Per a pintar amb un conjunt de colors seleccionats, de la mateixa manera que "
 "un pintor a l'oli treballa amb els colors d'un nombre limitat de tubs."
 
 #: src/concepts/palettes.xml:41(para)
@@ -3039,7 +3039,7 @@ msgid ""
 "of an indexed image is called an \"indexed palette\" in <acronym>GIMP</"
 "acronym>."
 msgstr ""
-"Forma els mapes de colors d'imatges indexades. Una imatge indexada es pot "
+"Per a formar els mapes de colors d'imatges indexades. Una imatge indexada es pot "
 "compondre de fins a 256 colors diferents. En el <acronym>GIMP</acronym> es "
 "diu «paleta indexada» del mapa de colors d'una imatge indexada."
 
@@ -3327,21 +3327,21 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/layers.xml:279(None)
 msgid ""
-"@@image: 'images/stock-icons/gimp-visible.png'; "
-"md5=c18c92f7336693c8962da99cd9405df5"
+"@@image: 'images/stock-icons/gimp-visible.svg'; "
+"md5=604690bf5f3c33f04262d9d6e959fc64"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-visible.png'; "
-"md5=c18c92f7336693c8962da99cd9405df5"
+"@@image: 'images/stock-icons/gimp-visible.svg'; "
+"md5=604690bf5f3c33f04262d9d6e959fc64"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/layers.xml:336(None)
 msgid ""
-"@@image: 'images/stock-icons/gimp-vchain.png'; "
-"md5=7c1f223b72d0d77f316a2ee9b96a08fb"
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-vchain.png'; "
-"md5=7c1f223b72d0d77f316a2ee9b96a08fb"
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3691,7 +3691,7 @@ msgid ""
 "removing an alpha channel."
 msgstr ""
 "La raó principal és que alguns filtres (al menú <guimenu>Filtres</guimenu>) "
-"només accepten un subconjunt de tipus de capa i apareixen desactivats al "
+"només accepten un subconjunt de tipus de capa, i apareixen desactivats al "
 "menú si la capa activa no té un tipus compatible. Sovint podeu corregir això "
 "canviant el mode de la imatge, o afegint o eliminant un canal alfa."
 
@@ -3813,7 +3813,7 @@ msgid ""
 "dashed line."
 msgstr ""
 "En el <acronym>GIMP</acronym>, els límits d'una capa no coincideixen "
-"necessàriament amb els límits de la imatge que la conté. Quan crees text, "
+"necessàriament amb els límits de la imatge que la conté. Quan creeu text, "
 "per exemple, cada element de text pertany a la seva pròpia capa separada, i "
 "la mida de la capa s'ajusta automàticament per a contenir el text i res més. "
 "A més, quan creeu una capa nova mitjançant tallar i enganxar, la capa nova "
@@ -4741,7 +4741,7 @@ msgstr ""
 #: src/concepts/layer-modes.xml:356(title)
 #: src/concepts/layer-modes-legacy.xml:295(title)
 msgid "Lighten Layer Modes"
-msgstr "Modes capa Il·lumina"
+msgstr "Modes de capa Il·lumina"
 
 #: src/concepts/layer-modes.xml:357(para)
 msgid ""
@@ -5108,7 +5108,7 @@ msgstr ""
 "El mode <guilabel>Crema</guilabel> inverteix el valor del píxel de la capa "
 "inferior, el divideix pel valor del píxel de la capa superior, i després "
 "inverteix el resultat. Tendeix a fer la imatge més fosca, similar al mode "
-"<quote>Multiplica </quote>."
+"<quote>Multiplica</quote>."
 
 #: src/concepts/layer-modes.xml:716(para)
 #: src/concepts/layer-modes-legacy.xml:676(para)
@@ -5148,7 +5148,7 @@ msgid ""
 msgstr ""
 "El mode <guilabel>Crema lineal</guilabel> afegeix els valors de píxel de les "
 "capes superior i inferior, i després resta 1,0. Tendeix a fer la imatge més "
-"fosca, similar al mode Multiplica <quote></quote>."
+"fosca, similar al mode <quote>Multiplica</quote>."
 
 #: src/concepts/layer-modes.xml:764(title)
 #: src/concepts/layer-modes-legacy.xml:694(title)
@@ -5348,7 +5348,7 @@ msgid ""
 "layer."
 msgstr ""
 "El mode <guilabel>Llum puntual</guilabel> és una combinació dels modes "
-"Enfosqueix i Il·lumina Les regions de tons mitjans romanen gairebé sense "
+"Enfosqueix i Il·lumina. Les regions de tons mitjans romanen gairebé sense "
 "influència. Si el valor del component de la capa superior és superior a 0,5: "
 "resta 0,5 de la capa superior i multiplica per 2,0. Aleshores el resultat és "
 "el màxim d'aquest valor i el valor de la capa inferior. Si el valor del "
@@ -5626,7 +5626,7 @@ msgstr ""
 #: src/concepts/layer-modes.xml:1270(title)
 #: src/concepts/layer-modes-legacy.xml:1157(title)
 msgid "HSV Components Layer Modes"
-msgstr "Modes de capa dels Components HSV"
+msgstr "Modes de capa dels components HSV"
 
 #: src/concepts/layer-modes.xml:1271(para)
 msgid ""
@@ -5764,7 +5764,7 @@ msgstr ""
 
 #: src/concepts/layer-modes.xml:1409(title)
 msgid "LCh Components Layer Modes"
-msgstr "Modes de capa dels Components LCh"
+msgstr "Modes de capa dels components LCh"
 
 #: src/concepts/layer-modes.xml:1411(para)
 msgid ""
@@ -5927,21 +5927,21 @@ msgstr ""
 #: src/concepts/layer-modes-legacy.xml:42(None)
 #: src/concepts/layer-modes-legacy.xml:58(None)
 msgid ""
-"@@image: 'images/stock-icons/gimp-reset.png'; "
-"md5=b18d9dff17538b5effdbe13c2148b75c"
+"@@image: 'images/stock-icons/gimp-reset.svg'; "
+"md5=a09004bcc1905948d73ec017e257d2d0"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-reset.png'; "
-"md5=b18d9dff17538b5effdbe13c2148b75c"
+"@@image: 'images/stock-icons/gimp-reset.svg'; "
+"md5=a09004bcc1905948d73ec017e257d2d0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/layer-modes-legacy.xml:67(None)
 msgid ""
-"@@image: 'images/stock-icons/gimp-wilber-eek.png'; "
-"md5=6591f8aff075dc39de164bccaf40798b"
+"@@image: 'images/stock-icons/gimp-wilber-eek.svg'; "
+"md5=e9abdcc4094a32cbb8074cf773169822"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-wilber-eek.png'; "
-"md5=6591f8aff075dc39de164bccaf40798b"
+"@@image: 'images/stock-icons/gimp-wilber-eek.svg'; "
+"md5=e9abdcc4094a32cbb8074cf773169822"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6430,7 +6430,7 @@ msgid ""
 msgstr ""
 "Des del <acronym>GIMP</acronym> 2.10, els modes de capa han canviat. Els "
 "antics modes de capa perceptiva encara estan disponibles per a la "
-"compatibilitat antiga. S'anomenen <quote>modes de capa heretats</quote>. "
+"compatibilitat amb versions anteriors. S'anomenen <quote>modes de capa heretats</quote>. "
 "Aquests modes de capa heretats s'utilitzaran quan es carreguin imatges fetes "
 "abans de la introducció dels nous modes de capa, principalment lineals."
 
@@ -6464,8 +6464,8 @@ msgstr ""
 "modes de la capa heretats per altres raons, seleccioneu la icona en el "
 "costat del desplegable <guilabel>Mode</guilabel> i canvieu els paràmetres, "
 "de mode <guilabel>Per defecte</guilabel> a <placeholder-2/><guilabel>Antic</"
-"guilabel>. El <guilabel>mode</guilabel> desplegable ara només mostrarà "
-"modes de capa heretada. Tots els modes tindran <guilabel>(antic)</guilabel> "
+"guilabel>. El <guilabel>mode</guilabel> desplegable ara només mostrarà modes "
+"de capa heretada. Tots els modes tindran <guilabel>(antic)</guilabel> "
 "darrere del nom (el mode seleccionat utilitzarà la versió curta <guilabel> "
 "(l) </guilabel>)."
 
@@ -6863,7 +6863,7 @@ msgstr ""
 "A causa d'un error <placeholder-1/>, l'equació real és equivalent a la llum "
 "suau. Això no es corregirà per al mode capa antic. Malgrat tot, fins i tot "
 "si utilitzeu explícitament el mode capa antic, el GIMP encara establirà el "
-"mode capa sobreposa per defecte. Les imatges que tinguin el mode  "
+"mode capa sobreposa per defecte. Les imatges que tinguin el mode "
 "superposició heretat establert per a una capa, hauran canviat a la llum suau "
 "heretada, ja que és efectivament això."
 
@@ -7441,8 +7441,8 @@ msgid ""
 "Masks are also available on layer groups. They work similarly to ordinary "
 "layer masks, with the following considerations."
 msgstr ""
-"Les màcares són possibles en els grups de capes. Funcionen de manera similar "
-"a les màscares de capa ordinàries, amb les consideracions següents."
+"Les màscares són possibles en els grups de capes. Funcionen de manera "
+"similar a les màscares de capa ordinàries, amb les consideracions següents."
 
 #: src/concepts/layer-groups.xml:289(para)
 msgid ""
@@ -7552,7 +7552,7 @@ msgstr ""
 "de fitxer, com ara .jpg) amb l'aplicació corresponent (per exemple, el "
 "<acronym>GIMP</acronym>). Quan els fitxers d'imatge estan convenientment "
 "<quote>associats</quote> al <acronym>GIMP</acronym>, podeu fer doble clic "
-"sobre una imatge per obrir-la en al <acronym>GIMP</acronym>."
+"sobre una imatge per obrir-la al <acronym>GIMP</acronym>."
 
 #: src/concepts/intro.xml:38(para)
 msgid ""
@@ -8726,7 +8726,7 @@ msgstr ""
 "en RGB és el nombre de <quote>canals de color</quote>: una imatge en escala "
 "de grisos en té un; una imatge RGB en té tres. Una imatge RGB es pot "
 "entendre com tres imatges en escala de grisos superposades, una de color "
-"vermell, una altra de verd i una altra de blau."
+"vermell, una altra de verd i una altra de blava."
 
 #: src/concepts/image-types.xml:78(para)
 msgid ""
@@ -8866,7 +8866,7 @@ msgstr ""
 "altre, usant l'ordre <link linkend=\"gimp-image-mode\">Mode</link> del menú "
 "Imatge. Per descomptat, en alguns tipus de conversions (de RGB a escala de "
 "grisos o indexat, per exemple) es perd informació que no es pot recuperar "
-"convertint en la direcció inversa."
+"convertint la imatge en la direcció inversa."
 
 #: src/concepts/image-types.xml:214(para)
 msgid ""
@@ -9044,9 +9044,9 @@ msgstr ""
 "ja sigui quan heu instal·lat el <acronym>GIMP</acronym> o després, aleshores "
 "podreu navegar fins al fitxer utilitzant un gestor de fitxers (com ara "
 "Nautilus o Konqueror a Linux, o Windows Explorer a Windows), i un cop l'heu "
-"trobat, feu doble clic al fitxer. Si es configura correctament, la imatge "
+"trobat, feu doble clic al fitxer. Si està configurat correctament, la imatge "
 "s'obrirà en el <acronym>GIMP</acronym>. La majoria dels gestors de fitxers "
-"també admeten arrossega-i-amolla (vegeu més avall)."
+"també admeten arrossega i deixar anar (vegeu més avall)."
 
 #: src/concepts/images-loading.xml:110(term)
 msgid "Drag and Drop"
@@ -9058,7 +9058,7 @@ msgid ""
 "linkend=\"gimp-concepts-toolbox\">Toolbox</link>, or, if you haven't opened "
 "any images yet, the empty image window, to open the dragged image or images."
 msgstr ""
-"Podeu <quote>Arrossegar i amollar</quote> una o més imatges a la <link "
+"Podeu <quote>Arrossegar i deixar anar</quote> una o més imatges a la <link "
 "linkend=\"gimp-concepts-toolbox\">Caixa d'eines</link>, o a la finestra "
 "d'imatge buida, si encara no heu obert cap imatge."
 
@@ -9124,7 +9124,7 @@ msgstr ""
 "pantalla al porta-retalls. La pantalla d'impressió no és compatible "
 "universalment, i només perquè el vostre sistema operatiu pot copiar una "
 "imatge al porta-retalls, no significa que el <acronym>GIMP</acronym> pugui "
-"utilitzar la imatge des del porta-retalls. La millor aposta és provar-ho i "
+"utilitzar la imatge des del porta-retalls. La millor manera és provar-ho i "
 "veure si funciona."
 
 #: src/concepts/images-loading.xml:167(term)
@@ -9141,9 +9141,9 @@ msgid ""
 msgstr ""
 "Hi ha moltes aplicacions de gestió d'imatges que es poden utilitzar per a "
 "navegar i gestionar-les. Normalment funcionen de manera similar a un "
-"navegador de fitxers normal, ja que podeu fer doble clic a les imatges per "
+"navegador de fitxers, ja que podeu fer doble clic a les imatges per "
 "carregar-les en la seva aplicació predeterminada; o podeu utilitzar "
-"arrossega-i-amolla per a deixar anar una o més imatges en la caixa d'eines "
+"arrossega i deixar anar, per a deixar anar una o més imatges en la caixa d'eines "
 "del <acronym>GIMP</acronym>."
 
 #: src/concepts/images-loading.xml:176(para)
@@ -9478,30 +9478,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/gradients.xml:136(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/using/color-gradient-pencil.png'; "
-#| "md5=5d0f45fb8aeb86fe34219e4074478906"
 msgid ""
 "@@image: 'images/using/color-gradient-pencil-dialog.png'; "
 "md5=944e62e187593c78fbe7a9de8f7d8f39"
 msgstr ""
-"@@image: 'images/using/color-gradient-pencil.png'; "
-"md5=5d0f45fb8aeb86fe34219e4074478906"
+"@@image: 'images/using/color-gradient-pencil-dialog.png'; "
+"md5=944e62e187593c78fbe7a9de8f7d8f39"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/gradients.xml:145(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/using/color-gradient-pencil.png'; "
-#| "md5=5d0f45fb8aeb86fe34219e4074478906"
 msgid ""
 "@@image: 'images/using/color-gradient-pencil-example.png'; "
 "md5=56e916fc78c9143c1096bd3610b691bf"
 msgstr ""
-"@@image: 'images/using/color-gradient-pencil.png'; "
-"md5=5d0f45fb8aeb86fe34219e4074478906"
+"@@image: 'images/using/color-gradient-pencil-example.png'; "
+"md5=56e916fc78c9143c1096bd3610b691bf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9651,14 +9643,6 @@ msgid "Painting with a gradient:"
 msgstr "Pintar amb un degradat:"
 
 #: src/concepts/gradients.xml:116(para)
-#, fuzzy
-#| msgid ""
-#| "You can also use a gradient with the Pencil, Paintbrush or Airbrush tools "
-#| "if you choose the dynamics <guilabel>Color From Gradient</guilabel>. In "
-#| "the next step choose a suitable gradient from <guilabel>Color options</"
-#| "guilabel> and in the <guilabel>Fade options</guilabel> set the gradients "
-#| "length and the style of the repeating. The chapter <xref linkend=\"gimp-"
-#| "tool-dynamic-options\"/> describes these parameters in more detail."
 msgid ""
 "You can also use a gradient with one of the drawing tools (e.g. Pencil, "
 "Paintbrush or Airbrush) if you switch on <guilabel>Enable dynamics</"
@@ -9669,16 +9653,18 @@ msgid ""
 "guilabel> section. <xref linkend=\"gimp-tool-dynamic-options\"/> describes "
 "these parameters in more detail."
 msgstr ""
-"També podeu usar un degradat amb el llapis, el pinzell o l'aerògraf si trieu "
-"la dinàmica <guilabel>Color des del Degradat</guilabel>. En el pas següent "
-"trieu el degradat que preferiu d'<guilabel>Opcions del color</guilabel> i en "
-"les <guilabel>Opcions d'esvaïment</guilabel> fixeu la longitud del degradat "
-"i l'estil de repetició. El capítol <xref linkend=\"gimp-tool-dynamic-"
+"També podeu utilitzar un degradat amb una de les eines de dibuix (p. ex. "
+"Llapis, Pinzell o Aerògraf) si activeu <guilabel>Habilita la dinàmica</"
+"guilabel> i establiu <guilabel>Dinàmica</guilabel> a <guilabel>Color des del "
+"degradat</guilabel>). En el següent pas, establiu la longitud dels degradats "
+"i l'estil <guilabel>Repetició</guilabel> a la secció <guilabel>Opcions "
+"d'esvaïment</guilabel>, i seleccioneu un degradat adequat a la secció "
+"<guilabel>Opcions de color</guilabel>. <xref linkend=\"gimp-tool-dynamic-"
 "options\"/> descriu aquests paràmetres amb més detall."
 
 #: src/concepts/gradients.xml:128(para)
 msgid "The following example shows the impact on the Pencil tool."
-msgstr ""
+msgstr "L'exemple següent mostra l'impacte a l'eina Llapis."
 
 #: src/concepts/gradients.xml:132(title)
 msgid "How to use a gradient with a drawing tool"
@@ -9686,11 +9672,11 @@ msgstr "Com usar un degradat amb una eina de dibuix"
 
 #: src/concepts/gradients.xml:139(para)
 msgid "Tool settings"
-msgstr ""
+msgstr "Paràmetres de l'eina"
 
 #: src/concepts/gradients.xml:148(para)
 msgid "Resulting succession of the gradients colors"
-msgstr ""
+msgstr "Successió resultant dels colors dels degradats"
 
 #: src/concepts/gradients.xml:154(para)
 msgid "Different productions with the same gradient:"
@@ -9724,28 +9710,37 @@ msgid ""
 "<link linkend=\"gimp-toolbox-color-area\">Foreground/Background Colors Area "
 "in the Toolbox</link>, instead of being fixed."
 msgstr ""
+"Els primers degradats de la llista són especials: utilitzen els colors de "
+"l'<link linkend=\"gimp-toolbox-color-area\">Àrea de colors del primer pla/"
+"fons de la caixa d'eines</link>, en lloc de ser fixos."
 
 #: src/concepts/gradients.xml:185(para)
 msgid ""
 "<guilabel>FG to BG (HSV Counter-Clockwise)</guilabel> represents the hue "
 "succession in a color wheel from the selected hue to 360°."
 msgstr ""
+"<guilabel>CPP a CF (HSV en sentit antihorari)</guilabel> representa la "
+"successió del to en una roda de colors des del to seleccionat fins a 360°."
 
 #: src/concepts/gradients.xml:191(para)
 msgid ""
 "<guilabel>FG to BG (HSV Clockwise)</guilabel> represents the hue succession "
 "in a color wheel from the selected hue to 0°."
 msgstr ""
+"<guilabel>CPP a CF (HSV en sentit horari)</guilabel> representa la successió "
+"del to en una roda de colors des del to seleccionat fins a 0°."
 
 #: src/concepts/gradients.xml:197(para)
 msgid ""
 "<guilabel>FG to BG (RGB)</guilabel> is the RGB representation of the "
 "gradient from the Foreground color to the Background color in Toolbox."
 msgstr ""
+"<guilabel>CPP a CF (RGB)</guilabel> és la representació RGB del degradat des "
+"del color del primer pla fins al color de fons en la caixa d'eines."
 
 #: src/concepts/gradients.xml:206(guilabel)
 msgid "FG to BG (Hard Edge)"
-msgstr ""
+msgstr "CPP a CF (vora dura)"
 
 #: src/concepts/gradients.xml:210(para)
 msgid ""
@@ -9754,10 +9749,14 @@ msgid ""
 "Selector. Thus, by altering the foreground and background colors, you can "
 "make these gradients transition smoothly between any two colors you want."
 msgstr ""
+"Amb el <guilabel>CPP a transparent</guilabel>, el to seleccionat es torna "
+"cada vegada més transparent. Podeu modificar aquests colors utilitzant el "
+"comptagotes. Per tant, en alterar els colors de primer pla i de fons, podreu "
+"fer que aquests degradats passin suaument entre els dos colors que vulgueu."
 
 #: src/concepts/gradients.xml:221(guilabel)
 msgid "FG to Transparent (Hard Edge)"
-msgstr ""
+msgstr "CPP a transparent (vora dura)"
 
 #: src/concepts/gradients.xml:227(para)
 msgid ""
@@ -11259,11 +11258,11 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/brushes.xml:146(None)
 msgid ""
-"@@image: 'images/stock-icons/view-refresh.png'; "
-"md5=51ae7bc0fe4056f90b3b5a0f84bebca3"
+"@@image: 'images/stock-icons/view-refresh.svg'; "
+"md5=e30a124eb8dd881de92ab4b2dd6c0550"
 msgstr ""
-"@@image: 'images/stock-icons/view-refresh.png'; "
-"md5=51ae7bc0fe4056f90b3b5a0f84bebca3"
+"@@image: 'images/stock-icons/view-refresh.svg'; "
+"md5=e30a124eb8dd881de92ab4b2dd6c0550"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -11430,7 +11429,7 @@ msgid ""
 "<guilabel>Fill with</guilabel> to <guilabel>Transparency</guilabel>."
 msgstr ""
 "En les <guilabel>Opcions avançades</guilabel>, establiu, per exemple, "
-"l'espai de color <guilabel></guilabel> a <guilabel>color RGB</guilabel> i "
+"l'<guilabel>espai de color</guilabel> a <guilabel>color RGB</guilabel> i "
 "establiu <guilabel>Emplena amb</guilabel> a <guilabel>Transparència</"
 "guilabel>."
 
@@ -11629,11 +11628,11 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/basic-setup.xml:245(None)
 msgid ""
-"@@image: 'images/stock-icons/gimp-menu-left.png'; "
-"md5=bb67d499c4560430d82231784a8d5049"
+"@@image: 'images/stock-icons/gimp-menu-left.svg'; "
+"md5=bcd8b1befe4e36f3afb9c7850e702752"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-menu-left.png'; "
-"md5=bb67d499c4560430d82231784a8d5049"
+"@@image: 'images/stock-icons/gimp-menu-left.svg'; "
+"md5=bcd8b1befe4e36f3afb9c7850e702752"
 
 #: src/concepts/basic-setup.xml:10(title)
 msgid "Main Windows"

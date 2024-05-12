@@ -84,7 +84,7 @@
             <inlinemediaobject>
               <imageobject>
                 <imagedata
-                  fileref="images/stock-icons/gimp-tool-gradient.png"/>
+                  fileref="images/stock-icons/gimp-tool-gradient.svg" contentwidth="16px"/>
               </imageobject>
             </inlinemediaobject>
           </guiicon>
@@ -401,7 +401,19 @@
             </listitem>
             <listitem>
               <para>
-                <guilabel>Sawtooth Wave</guilabel>: the Sawtooth pattern is 
+                <guilabel>None (truncate)</guilabel>: areas before and after 
+                endpoints are truncated.
+              </para>
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+              fileref="images/tool-options/gradient-repeat-truncate.png"/>
+                </imageobject>
+              </mediaobject>
+            </listitem>
+            <listitem>
+              <para>
+                <guilabel>Sawtooth wave</guilabel>: the Sawtooth pattern is 
                 achieved by beginning with the foreground, transitioning to the 
                 background, then starting over with the foreground.
               </para>
@@ -414,7 +426,7 @@
             </listitem>
             <listitem>
               <para>
-                <guilabel>Triangular Wave</guilabel>: starts with the 
+                <guilabel>Triangular wave</guilabel>: starts with the 
                 foreground, transitions to the background, then transitions 
                 back to the foreground.
               </para>
@@ -422,18 +434,6 @@
                 <imageobject>
                   <imagedata format="PNG"
               fileref="images/tool-options/gradient-repeat-triangular.png"/>
-                </imageobject>
-              </mediaobject>
-            </listitem>
-            <listitem>
-              <para>
-                <guilabel>Truncate</guilabel>: areas before and after 
-                endpoints are truncated.
-              </para>
-              <mediaobject>
-                <imageobject>
-                  <imagedata format="PNG"
-              fileref="images/tool-options/gradient-repeat-truncate.png"/>
                 </imageobject>
               </mediaobject>
             </listitem>
@@ -603,7 +603,7 @@
               <inlinemediaobject>
                 <imageobject>
                   <imagedata
-                    fileref="images/stock-icons/document-new.png"/>
+                    fileref="images/stock-icons/document-new.svg" contentwidth="16px"/>
                 </imageobject>
               </inlinemediaobject>
             </guiicon> to create a new stop at midpoint, and 
@@ -611,7 +611,7 @@
               <inlinemediaobject>
                 <imageobject>
                   <imagedata
-                    fileref="images/stock-icons/gimp-hcenter.png"/>
+                    fileref="images/stock-icons/gimp-hcenter.svg" contentwidth="16px"/>
                 </imageobject>
               </inlinemediaobject>
             </guiicon> to center midpoint.

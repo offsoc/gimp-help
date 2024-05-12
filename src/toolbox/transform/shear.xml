@@ -65,7 +65,7 @@
             <inlinemediaobject>
               <imageobject>
                 <imagedata
-                  fileref="images/stock-icons/gimp-tool-shear.png"/>
+                  fileref="images/stock-icons/gimp-tool-shear.svg" contentwidth="16px"/>
               </imageobject>
             </inlinemediaobject>
           </guiicon>
@@ -74,7 +74,7 @@
       </listitem>
       <listitem>
         <para>
-          By pressing the <keycombo><keycap>Shift</keycap><keycap>S</keycap></keycombo>
+          By pressing the <keycombo><keycap>Shift</keycap><keycap>H</keycap></keycombo>
           keyboard shortcut.
         </para>
       </listitem>
