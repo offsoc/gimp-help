@@ -30,7 +30,7 @@
     <title>The dialog to describe the animated brush</title>
     <mediaobject>
       <imageobject>
-        <imagedata fileref="images/using/file-gih-save.png" format="PNG"/>
+        <imagedata fileref="images/using/file-gih-export.png" format="PNG"/>
       </imageobject>
       <caption>
         <para>
@@ -316,7 +316,11 @@
               In the <link linkend="gimp-brush-dialog">Brush Dialog</link>, click on
               the button <guibutton>Refresh brushes</guibutton>
               <guiicon>
-                <inlinegraphic fileref="images/stock-icons/view-refresh.png"/>
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata fileref="images/stock-icons/view-refresh.svg" contentwidth="16px"/>
+                  </imageobject>
+                </inlinemediaobject>
               </guiicon>.
             </para>
             <para>

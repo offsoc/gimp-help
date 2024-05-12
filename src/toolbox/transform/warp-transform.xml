@@ -45,7 +45,7 @@
           <guiicon>
             <inlinemediaobject>
               <imageobject>
-                <imagedata fileref="images/stock-icons/gimp-tool-warp.png" />
+                <imagedata fileref="images/stock-icons/gimp-tool-warp.svg" contentwidth="16px" />
               </imageobject>
             </inlinemediaobject>
           </guiicon>
@@ -75,12 +75,12 @@
 
     <para>
       The available tool options can be accessed by double clicking the
-      Warp Transform tool icon in toolbox.
+      tool icon in the toolbox:
       <guiicon>
         <inlinemediaobject>
           <imageobject>
-            <imagedata format="PNG"
-              fileref="images/stock-icons/gimp-tool-warp.png" />
+            <imagedata
+              fileref="images/stock-icons/gimp-tool-warp.svg" contentwidth="16px" />
           </imageobject>
         </inlinemediaobject>
       </guiicon>
